@@ -5,19 +5,20 @@
 
 let numbers = [337941312819039,5602256151929824,30225170444787,3551910535291105,4041593896103,5347039149245184,337941624752787,67099423720619241,6394362198407475,3560667783239439,4017950948196059,6759393197130163,6771549142615186,201836980226124,3556519446278575,3566850663741161,3528172140783618,3537563353849766,6331107836502898,4508928697689785];
 
+let num = numbers.toString()
 let numEven = [];
 let numOdd = [];
 
-for (let i = 0; i < numbers.length; i++){
+for (let i = 0; i < num.length; i++){
 
-    if (numbers[i] % 2 === 0){
+    if (num[i] % 2 === 0){
       // numbers[i] = 'even';
-      numEven.push(numbers[i]);
+      numEven.push(num[i]);
       // console.log(numEven);
 
     }else{
       // numbers[i] = 'odd'
-      numOdd.push(numbers[i])
+      numOdd.push(num[i])
       // console.log(numOdd);
     }
   }
